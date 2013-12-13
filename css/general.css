@@ -172,7 +172,7 @@ h4 {
 }
 
 .mainlogo img {
-	width: 50%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -200,6 +200,12 @@ h3 {
 .abouthome {
 	width: 100%;
 	margin-bottom: 4em;
+}
+
+.abouthome p, h3 {
+	font-size: 1em;
+	text-align: center;
+
 }
 
 /*
@@ -236,6 +242,10 @@ em {
 }
 
 .lrg-img {
+	display:none;
+}
+
+.lrg-img-glasses {
 	display:none;
 }
 
@@ -575,6 +585,10 @@ footer p {
 
 @media only screen and (min-width: 30em) {
 
+.mainlogo img {
+	width: 50%;
+}
+
 .menuicon {
 	padding-top: 1.5em;
 	width: 6%;
@@ -614,7 +628,6 @@ footer p {
 	padding: 0;
 
 }
-
 
 
 .kickstarter {
@@ -660,6 +673,10 @@ article {
 	float: left;
 }
 
+.abouthome p, h3 {
+	font-size: 1.5em;
+}
+
 .lrg-img {
 	display: block;
 	overflow: hidden;
@@ -667,6 +684,15 @@ article {
 	width: 240px;
 	left: 60%;
 	bottom: 95%;
+}
+
+.lrg-img-glasses {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	width: 400px;
+	left: 48%;
+	bottom: 60%;
 }
 
 
@@ -745,7 +771,7 @@ aside {
 	font-family: 'KefaIIPro-Regular', serif;
 	hanging-punctuation: first;
 	margin-right: 1em;
-	margin-top: 25%;
+	margin-top: 30%;
 }
 
 aside p {
@@ -766,12 +792,21 @@ aside p {
 	left: 63%;
 }
 
+.lrg-img-glasses {
+	left: 49%;
+	width: 420px;
+}
+
 .error img {
 	width: 65%;
 }
 
 nav {
 	padding-top: 4.4%;
+}
+
+.abouthome p, h3 {
+	font-size: 2em;
 }
 
 }
@@ -805,6 +840,12 @@ nav {
 .lrg-img {
 	left: 63%;
 	width: 275px;
+}
+
+.lrg-img-glasses {
+	left: 52%;
+	width: 500px;
+	bottom: 80%;
 }
 
 h4 {
@@ -859,6 +900,11 @@ nav {
 .lrg-img{
 	width: 300px;
 	left: 65%;
+}
+
+.lrg-img-glasses{
+	width: 600px;
+	left: 55%;
 }
 
 .error img {
