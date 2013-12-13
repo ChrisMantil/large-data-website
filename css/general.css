@@ -228,11 +228,6 @@ h3 {
 p {
 	color: black;
 	line-height: 1.2em;
-	hyphenate: auto;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	-ms-hyphens: auto;
-	-o-hyphens: auto;
 }
 
 em {
@@ -468,7 +463,7 @@ footer {
 	background-color: #999999;
 	width: 100%;
 	height: 100%;
-	margin: none;
+	margin: 0;
 	border-top: 1px solid #666666;
 	padding: 3em 0;
 }
