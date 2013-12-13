@@ -304,9 +304,9 @@ span {
 }
 
 .contact li {
-	text-decoration: underline;
-	font-size: 90%;
-	font-family: 'KefaIIPro-Regular', serif;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-family: 'DINWeb', sans-serif;
 }
 
 aside {
