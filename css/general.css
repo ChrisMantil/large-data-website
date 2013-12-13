@@ -229,6 +229,12 @@ p {
 	-o-hyphens: auto;
 }
 
+em {
+	font-weight: bold;
+	font-style: normal;
+
+}
+
 .lrg-img {
 	display:none;
 }
@@ -250,6 +256,10 @@ article ul {
 article li {
 	line-height: 1.2em;
 	margin-bottom: .7em;
+}
+
+span {
+	margin-left: -.4em;
 }
 
 .beerpic {
@@ -684,7 +694,7 @@ max-height: 5em;
 background-color: transparent;
 width: 40%;
 clear: none;
-padding-top: 5%;
+padding-top: 4%;
 padding-right: .6em;
 }
 
@@ -758,6 +768,10 @@ aside p {
 
 .error img {
 	width: 65%;
+}
+
+nav {
+	padding-top: 4.4%;
 }
 
 }
